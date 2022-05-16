@@ -1,24 +1,28 @@
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+
 final GoRouter goRouter = GoRouter(
   urlPathStrategy: UrlPathStrategy.path,
   debugLogDiagnostics: kDebugMode,
   routes: <GoRoute>[
     /// [Create] Dashboard Module with Mason add easy_app_blank
-    GoRoute(
-      name: DashboardPage.name,
-      path: DashboardPage.routeName,
-      builder: (BuildContext context, GoRouterState state) => DashboardPage(
-        key: state.pageKey,
-      ),
-    ),
+    // GoRoute(
+    //   name: DashboardPage.name,
+    //   path: DashboardPage.routeName,
+    //   builder: (BuildContext context, GoRouterState state) => DashboardPage(
+    //     key: state.pageKey,
+    //   ),
+    // ),
 
     /// [Create] Auth Module with Mason add easy_app_blank
-    GoRoute(
-      name: AuthPage.name,
-      path: AuthPage.routeName,
-      builder: (BuildContext context, GoRouterState state) => AuthPage(
-        key: state.pageKey,
-      ),
-    )
+    // GoRoute(
+    //   name: AuthPage.name,
+    //   path: AuthPage.routeName,
+    //   builder: (BuildContext context, GoRouterState state) => AuthPage(
+    //     key: state.pageKey,
+    //   ),
+    // )
   ],
   // redirect to the login page if the user is not logged in
   redirect: (state) {

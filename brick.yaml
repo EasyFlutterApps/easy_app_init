@@ -1,11 +1,11 @@
 name: easy_app_init
-description: A new brick created with the Mason CLI.
+description: Its Generate Initial boilerplate code for your project. which handles the Theme, Routes and other Stuffs.
 repository: https://github.com/EasyFlutterApps/easy_app_init
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
 # followed by an optional build number (separated by a +).
-version: 0.1.0+1-dev0.2
+version: 0.1.0+1-dev0.3
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
