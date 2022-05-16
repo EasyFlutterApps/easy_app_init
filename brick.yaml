@@ -1,10 +1,11 @@
 name: easy_app_init
 description: A new brick created with the Mason CLI.
+repository: https://github.com/EasyFlutterApps/easy_app_init
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
 # followed by an optional build number (separated by a +).
-version: 0.1.0+1-dev0.1
+version: 0.1.0+1-dev0.2
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
@@ -18,27 +19,3 @@ environment:
 #  * an optional short description
 #  * an optional default value
 #  * an optional prompt phrase used when asking for the variable.
-vars:
-  primary_light:
-    type: string
-    description: Primary Light Color Code
-    default: 706FC8
-    prompt: What is your primary color code?
-
-  secondary_light:
-    type: string
-    description: Primary Light Color Code
-    default: 171717
-    prompt: What is your primary color code?
-
-  primary_dark:
-    type: string
-    description: Primary Dark Color Code
-    default: 11191F
-    prompt: What is your primary color code?
-
-  secondary_dark:
-    type: string
-    description: Primary Dark Color Code
-    default: 5394BD
-    prompt: What is your primary color code?
